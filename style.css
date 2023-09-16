@@ -1,74 +1,74 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f0f0;
 }
 
 h1{
-    text-align: center;
-    font-size: 50px;
-    font-style: italic;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-decoration: underline;
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: underline;
 }
 
 #grid-section {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    text-align: center;
-    width: 60%;
-    margin: 0 auto;
-    padding: 10px;
-    gap: 10px;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  padding: 10px;
+  gap: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 #grid-container {
-    width: 90%;
-    display: grid;
-    /* Set equal number of columns and rows */
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(16, 1fr);
-    /* gap: 1px; */
-    border: 1px solid black;
-  justify-content : center;
-  align-items : center;
+  width: 90%;
+  display: grid;
+  /* Set equal number of columns and rows */
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  /* gap: 1px; */
+  border: 1px solid black;
+justify-content : center;
+align-items : center;
 }
 
 .square {
-    background-color: white;
-    border: 1px solid #ccc;
-    width: auto;
-    aspect-ratio: 1/1;
-    margin: 2px;
+  background-color: white;
+  border: 1px solid #ccc;
+  width: auto;
+  aspect-ratio: 1/1;
+  margin: 2px;
 }
 #btn-container{
-  width: 30%;
-    display: flex;
-    flex-flow: wrap column;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
-  border-radius: 10px;
-  background-color: #f0f0f0;
+width: 30%;
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+border-radius: 10px;
+background-color: #f0f0f0;
 }
-#reset-button, #eraser-button {
-    padding: 10px 20px;
-    background-color: #0074d9;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
-  margin: 20px;
-  border-radius: 5px;
+.btn {
+  padding: 10px 20px;
+  background-color: #0074d9;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+margin: 20px;
+border-radius: 5px;
 }
 
-#reset-button:hover {
-    background-color: #0056b3;
+.btn:hover {
+  background-color: #0056b3;
 }
